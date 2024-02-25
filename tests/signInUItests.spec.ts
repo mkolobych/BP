@@ -9,7 +9,7 @@ test.describe("Sign-in flows", () => {
 
         await signInPage.userProfileDropDown.click();
         await signInPage.signOutButton.click();
-        await expect(signInPage.signInTitle).toHaveText("Sign In to Midy Portal11");
+        await expect(signInPage.signInTitle).toHaveText("Sign In to Midy Portal111");
     });
 });
 
